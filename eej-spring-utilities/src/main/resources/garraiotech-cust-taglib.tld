@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facelet-taglib version="2.0" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd">
+	<description>EEJ - DataTablesTagLib</description>
+ 	<namespace>http://utilities.eej.com/tag/datatables</namespace>
+ 	<tlibversion>1.0</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>edt</shortname>
+	<info>DataTablesTagLib</info>
+ 	<tag>
+  		<description>DataTablesTagLib - DataTable</description>
+  		<name>dataTable</name>
+    	<tagclass>com.eej.utilities.taglib.DataTable</tagclass>
+    	<attribute>
+			<description>Logo Size, three size supported: 1=Small, 2=Medium, 3=Large, default small</description>
+			<name>contentType</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description></description>
+			<name>pageName</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>		
+		<attribute>
+			<description></description>
+			<name>resultListName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>		
+		<attribute>
+			<description></description>
+			<name>rowsPerPage</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description></description>
+			<name>serverSide</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description></description>
+			<name>sourceData</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description></description>
+			<name>tableName</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<!-- dynamic-attributes>true</dynamic-attributes-->
+ 	</tag>
+</facelet-taglib>

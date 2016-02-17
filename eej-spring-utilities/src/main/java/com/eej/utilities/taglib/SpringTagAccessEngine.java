@@ -4,7 +4,7 @@
 package com.eej.utilities.taglib;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public interface SpringTagAccessEngine {

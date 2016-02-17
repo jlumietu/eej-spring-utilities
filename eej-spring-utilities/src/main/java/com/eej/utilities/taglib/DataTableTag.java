@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public class DataTableTag extends BaseSpringContextTag{

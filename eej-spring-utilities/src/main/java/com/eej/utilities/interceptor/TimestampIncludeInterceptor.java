@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public class TimestampIncludeInterceptor extends HandlerInterceptorAdapter implements HandlerInterceptor {

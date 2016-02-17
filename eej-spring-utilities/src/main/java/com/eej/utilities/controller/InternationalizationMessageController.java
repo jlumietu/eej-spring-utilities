@@ -17,7 +17,7 @@ import com.eej.utilities.messages.CustomReloadableResourceBundleMessageSource;
 
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 @Controller

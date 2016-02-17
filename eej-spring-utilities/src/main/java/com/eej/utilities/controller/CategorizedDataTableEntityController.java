@@ -10,7 +10,7 @@ import com.eej.utilities.model.DataTableTagModel;
 import com.eej.utilities.model.DataTableTagModelConfiguration;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public abstract class CategorizedDataTableEntityController extends

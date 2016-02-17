@@ -13,7 +13,7 @@ import com.eej.utilities.ApplicationVersion;
 
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public abstract class BaseSpringContextTag extends RequestContextAwareTag{

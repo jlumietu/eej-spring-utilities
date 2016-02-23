@@ -3,7 +3,7 @@ Spring dependent utilities
 
 This package main goal is to handle via spring and reflection the necessary stuff to bind all pieces involved in this tasks.
 
-The complete suite is built by using together eej-utilities, @eej-spring-utilities and @eej-database-utilities, but all this three are packaged separetely to make possible the reutilization of some of the components.
+The complete suite is built by using together eej-utilities, eej-spring-utilities and eej-database-utilities, but all this three are packaged separetely to make possible the reutilization of some of the components.
 
 This eej-spring-utilities depends on Spring 3.1 or higher (currently using 4.1.1.Release), but will (or at least should) work with any version greater or equal than 3.15.
 

@@ -129,7 +129,7 @@
     <tag>HEAD</tag>
     <url>https://github.com/jlumietu/eej-spring-utilities</url>
   </scm>
-  
+
   <distributionManagement>
   	<repository>
   		<id>dbRepo</id>

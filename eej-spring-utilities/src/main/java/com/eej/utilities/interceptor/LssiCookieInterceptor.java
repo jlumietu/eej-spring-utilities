@@ -16,7 +16,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public class LssiCookieInterceptor implements HandlerInterceptor {

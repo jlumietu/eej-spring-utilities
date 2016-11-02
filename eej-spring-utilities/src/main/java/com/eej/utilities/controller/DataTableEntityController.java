@@ -21,7 +21,7 @@ import com.eej.utilities.model.DataTableTagModelConfiguration;
 import com.eej.utilities.model.factory.DataTableTagModelConfigurationFactory;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public abstract class DataTableEntityController {

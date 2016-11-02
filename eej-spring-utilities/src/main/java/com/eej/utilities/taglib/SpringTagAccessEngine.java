@@ -4,7 +4,7 @@
 package com.eej.utilities.taglib;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface SpringTagAccessEngine {

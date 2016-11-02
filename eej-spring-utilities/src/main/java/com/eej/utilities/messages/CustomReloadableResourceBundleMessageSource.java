@@ -9,7 +9,7 @@ import java.util.Properties;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public class CustomReloadableResourceBundleMessageSource extends

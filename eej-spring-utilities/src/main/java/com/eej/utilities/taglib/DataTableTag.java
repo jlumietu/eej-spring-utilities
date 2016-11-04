@@ -53,10 +53,14 @@ private Logger logger = Logger.getLogger(this.getClass());
 				"<section id='" + this.tableName + "' class='tableSection dynamicDataTable' " +
 				" data-attr-pageName='" + this.pageName + "' " + 
 				" data-attr-serverSide='" + this.serverSide + "' " + 
-				" data-attr-sourceData='" + (appContext.equals("")?"": appContext + "/") + this.sourceData + "' " + 
+				" data-attr-sourceData='" + 
+					(appContext.equals("")?"": appContext) + 
+					(this.sourceData.startsWith("/")?this.sourceData:"/" + this.sourceData) + "' " + 
 				" data-attr-resultListName='" + this.resultListName + "' " + 
 				" data-attr-allowNewRowCreation='" + this.allowNewRowCreation + "' " +
-				" data-attr-newRowCreationUrlEndpoint='" + this.newRowCreationUrlEndpoint + "' " + 
+				" data-attr-newRowCreationUrlEndpoint='" + 
+					(appContext.equals("")?"": appContext) + 
+					(this.newRowCreationUrlEndpoint.startsWith("/")?this.newRowCreationUrlEndpoint:"/"+this.newRowCreationUrlEndpoint) + "' " + 
 				"/>");
 		return SKIP_BODY;
 	}

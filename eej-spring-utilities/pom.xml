@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.eej.utilities</groupId>
   <artifactId>eej-spring-utilities</artifactId>
-  <version>0.0.5-RELEASE</version>
+  <version>0.0.6-SNAPSHOT</version>
   <name>EEJ Spring Utilities</name>
   
   <properties>
@@ -85,7 +85,7 @@
 			<filtering>true</filtering>
 		</resource>
 		<resource>
-			<directory>src/main/java/META-INF</directory>
+			<directory>src/main/resources/META-INF</directory>
 			<targetPath>META-INF</targetPath>
 			<filtering>true</filtering>
 		</resource>  	

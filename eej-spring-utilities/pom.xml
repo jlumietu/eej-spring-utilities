@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.eej.utilities</groupId>
   <artifactId>eej-spring-utilities</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5-RELEASE</version>
   <name>EEJ Spring Utilities</name>
   
   <properties>
@@ -73,7 +73,7 @@
  	<dependency>
   		<groupId>com.eej.utilities</groupId>
   		<artifactId>eej-utilities</artifactId>
-  		<version>0.0.9-SNAPSHOT</version>
+  		<version>0.0.9-RELEASE</version>
   	</dependency>  
   </dependencies>
   

@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<facelet-taglib version="2.0" 
-		xmlns="http://java.sun.com/xml/ns/javaee"
- 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
- 		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd">
+<!-- facelet-taglib -->
+<taglib 
+	version="2.0"
+	 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 	xsi:schemaLocation=" 		 
+ 	
+ 		http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+ 	> 
+<!-- xmlns="http://java.sun.com/xml/ns/javaee" -->
+<!-- xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee" -->
+<!-- 
+	xsi:schemaLocation="
+ 		http://java.sun.com/xml/ns/javaee 
+ 		http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd" -->
  		
 	<description>EEJ - DataTablesTagLib</description>
- 	<namespace>http://utilities.eej.com/tag/datatables</namespace>
- 	<tlibversion>1.0</tlibversion>
-	<jspversion>1.1</jspversion>
-	<shortname>edt</shortname>
-	<info>DataTablesTagLib</info>
+	<uri>http://utilities.eej.com/tag/datatables</uri>
+ 	<!-- namespace>http://utilities.eej.com/tag/datatables</namespace-->
+ 	<tlib-version>1.0</tlib-version>
+	<!-- jspversion>1.1</jspversion-->
+	<short-name>edt</short-name>
+	<!-- info>DataTablesTagLib</info-->
 	<uri>http://utilities.eej.com/tag/datatables</uri>
  	<tag>
+ 		<class></class>
   		<description>DataTablesTagLib - DataTable</description>
-  		<name>dataTable</name>
-    	<tagclass>com.eej.utilities.taglib.DataTableTag</tagclass>
+  		<name>dataTable</name>  		
+    	<tag-class>com.eej.utilities.taglib.DataTableTag</tag-class>
     	<attribute>
 			<description>Logo Size, three size supported: 1=Small, 2=Medium, 3=Large, default small</description>
 			<name>contentType</name>
@@ -71,4 +84,5 @@
 		</attribute>
 		<!-- dynamic-attributes>true</dynamic-attributes-->
  	</tag>
-</facelet-taglib>
+<!-- /facelet-taglib-->
+</taglib>
